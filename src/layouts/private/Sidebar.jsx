@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
-import MenuItem from '../../components/ui/MenuItem';
+import SidebarMenuItem from '../../components/ui/SidebarMenuItem';
 
 const Sidebar = () => {
   const { sidebarExpanded } = useSelector((state) => state.ui);
@@ -243,7 +243,7 @@ const Sidebar = () => {
       <nav className="mt-4">
         <ul className="space-y-1 px-2">
           {navItems.map((item, index) => (
-            <MenuItem
+            <SidebarMenuItem
               key={`${item.path || item.label}-${index}`}
               item={item}
               sidebarExpanded={sidebarExpanded}

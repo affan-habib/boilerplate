@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from 'react';
 import { toggleSidebar } from '../../store/slices/uiSlice';
 import { logout } from '../../store/slices/authSlice';
 import { logoutUser } from '../../services/authService';
-import NewSidebar from './NewSidebar';
+import Sidebar from './Sidebar';
 import LanguageSwitcher from '../../components/ui/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 
@@ -38,7 +38,7 @@ const PrivateLayout = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex overflow-hidden">
-      <NewSidebar />
+      <Sidebar />
 
       <div className={`flex-1 flex flex-col transition-all duration-300 ${sidebarExpanded ? 'ml-[240px]' : 'ml-[64px]'}`}>
         <header className="bg-white shadow-sm z-10 border-b border-gray-100 fixed top-0 right-0 left-0 transition-all duration-300" style={{ left: sidebarExpanded ? '240px' : '64px' }}>
