@@ -13,7 +13,6 @@ const menuItems = [
     label: 'Products',
     icon: FaBox,
     children: [
-      { path: '/products', label: 'All Products' },
       { path: '/products/categories', label: 'Category', icon: FaList },
       { path: '/products/brands', label: 'Brand', icon: FaTags },
       { path: '/products/reviews', label: 'Product Reviews', icon: FaClipboardList }
@@ -23,7 +22,6 @@ const menuItems = [
     label: 'Sales and Order',
     icon: FaShoppingCart,
     children: [
-      { path: '/orders', label: 'All Orders' },
       { path: '/orders/pending', label: 'Pending Orders' },
       { path: '/orders/completed', label: 'Completed Orders' },
       { path: '/orders/cancelled', label: 'Cancelled Orders' }
