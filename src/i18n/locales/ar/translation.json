@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "نموذج رياكت",
+    "language": "اللغة"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "signUp": "إنشاء حساب",
+    "signIn": "تسجيل الدخول",
+    "name": "الاسم الكامل"
+  },
+  "dashboard": {
+    "welcome": "مرحبًا بك في لوحة التحكم",
+    "orders": "الطلبات",
+    "preorders": "الطلبات المسبقة",
+    "earnings": "الأرباح",
+    "customers": "العملاء",
+    "products": "المنتجات",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "profile": "إعدادات الملف الشخصي",
+    "stats": {
+      "totalSales": "إجمالي المبيعات",
+      "totalOrders": "إجمالي الطلبات",
+      "averageOrder": "متوسط الطلب",
+      "conversionRate": "معدل التحويل"
+    }
+  },
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "orders": "الطلبات",
+    "allOrders": "جميع الطلبات",
+    "pendingOrders": "الطلبات المعلقة",
+    "completedOrders": "الطلبات المكتملة",
+    "products": "المنتجات",
+    "allProducts": "جميع المنتجات",
+    "categories": "الفئات",
+    "catalog": "الكتالوج",
+    "digitalProducts": "المنتجات الرقمية",
+    "physicalProducts": "المنتجات المادية",
+    "customers": "العملاء",
+    "reports": "التقارير",
+    "salesReports": "تقارير المبيعات",
+    "inventoryReports": "تقارير المخزون",
+    "settings": "الإعدادات"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "email": "يرجى إدخال بريد إلكتروني صالح",
+    "passwordLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "passwordMatch": "يجب أن تتطابق كلمات المرور"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "React Boilerplate",
+    "language": "Language"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "name": "Full Name"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your Dashboard",
+    "orders": "Orders",
+    "preorders": "Preorders",
+    "earnings": "Earnings",
+    "customers": "Customers",
+    "products": "Products",
+    "settings": "Settings",
+    "logout": "Logout",
+    "profile": "Profile Settings",
+    "stats": {
+      "totalSales": "Total Sales",
+      "totalOrders": "Total Orders",
+      "averageOrder": "Average Order",
+      "conversionRate": "Conversion Rate"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "allOrders": "All Orders",
+    "pendingOrders": "Pending Orders",
+    "completedOrders": "Completed Orders",
+    "products": "Products",
+    "allProducts": "All Products",
+    "categories": "Categories",
+    "catalog": "Catalog",
+    "digitalProducts": "Digital Products",
+    "physicalProducts": "Physical Products",
+    "customers": "Customers",
+    "reports": "Reports",
+    "salesReports": "Sales Reports",
+    "inventoryReports": "Inventory Reports",
+    "settings": "Settings"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email",
+    "passwordLength": "Password must be at least 8 characters",
+    "passwordMatch": "Passwords must match"
+  }
+}
