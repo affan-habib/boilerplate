@@ -1,55 +1,27 @@
+// src/data/menuItems.js
 import { 
-  FaHome, 
-  FaShoppingCart, 
-  FaBox, 
-  FaUsers, 
-  FaCog, 
-  FaChartBar, 
-  FaTags, 
-  FaTrademark, 
-  FaStar, 
-  FaBuilding, 
-  FaBlog, 
-  FaBullhorn, 
-  FaHeadset, 
-  FaLayerGroup, 
-  FaUsersCog, 
-  FaTruck, 
-  FaCoins,
-  FaWpforms
+  FaHome, FaShoppingCart, FaBox, FaUsers, FaCogs, FaChartBar, FaClipboardList, FaTags, FaList, FaUserTie, FaBlog, FaBullhorn, FaHeadset, FaGlobe, FaUserShield, FaTruck, FaGift, FaWpforms 
 } from 'react-icons/fa';
 
-const sidebarMenuItems = [
+const menuItems = [
   {
     path: '/dashboard',
-    icon: <FaBox />,
+    icon: FaHome,
     label: 'Dashboard'
   },
   {
     label: 'Products',
-    icon: <FaBox />,
+    icon: FaBox,
     children: [
       { path: '/products', label: 'All Products' },
-      {
-        label: 'Category',
-        icon: <FaTags />,
-        path: '/products/categories'
-      },
-      {
-        label: 'Brand',
-        icon: <FaTrademark />,
-        path: '/products/brands'
-      },
-      {
-        label: 'Product Reviews',
-        icon: <FaStar />,
-        path: '/products/reviews'
-      }
+      { path: '/products/categories', label: 'Category', icon: FaList },
+      { path: '/products/brands', label: 'Brand', icon: FaTags },
+      { path: '/products/reviews', label: 'Product Reviews', icon: FaClipboardList }
     ]
   },
   {
     label: 'Sales and Order',
-    icon: <FaShoppingCart />,
+    icon: FaShoppingCart,
     children: [
       { path: '/orders', label: 'All Orders' },
       { path: '/orders/pending', label: 'Pending Orders' },
@@ -59,17 +31,17 @@ const sidebarMenuItems = [
   },
   {
     path: '/customers',
-    icon: <FaUsers />,
+    icon: FaUsers,
     label: 'Customers'
   },
   {
     label: 'Partner Vendors',
-    icon: <FaBuilding />,
+    icon: FaUserTie,
     path: '/vendors'
   },
   {
     label: 'Reports',
-    icon: <FaChartBar />,
+    icon: FaChartBar,
     children: [
       { path: '/reports/sales', label: 'Sales Reports' },
       { path: '/reports/inventory', label: 'Inventory Reports' },
@@ -79,7 +51,7 @@ const sidebarMenuItems = [
   },
   {
     label: 'Blog System',
-    icon: <FaBlog />,
+    icon: FaBlog,
     children: [
       { path: '/blog/posts', label: 'All Posts' },
       { path: '/blog/categories', label: 'Categories' },
@@ -88,7 +60,7 @@ const sidebarMenuItems = [
   },
   {
     label: 'Marketing',
-    icon: <FaBullhorn />,
+    icon: FaBullhorn,
     children: [
       { path: '/marketing/campaigns', label: 'Campaigns' },
       { path: '/marketing/promotions', label: 'Promotions' },
@@ -97,34 +69,34 @@ const sidebarMenuItems = [
   },
   {
     label: 'Support',
-    icon: <FaHeadset />,
+    icon: FaHeadset,
     path: '/support'
   },
   {
     label: 'Homepage Setup',
-    icon: <FaLayerGroup />,
+    icon: FaGlobe,
     path: '/homepage-setup'
   },
   {
     label: 'Staffs/Admin Manager',
-    icon: <FaUsersCog />,
+    icon: FaUserShield,
     path: '/staff'
   },
   {
     label: 'Delivery',
-    icon: <FaTruck />,
+    icon: FaTruck,
     path: '/delivery'
   },
   {
     label: 'Loyalty and Reward Points',
-    icon: <FaCoins />,
+    icon: FaGift,
     path: '/loyalty'
   },
   {
     label: 'Demo Form',
-    icon: <FaWpforms />,
+    icon: FaWpforms,
     path: '/demo/form'
   }
 ];
 
-export default sidebarMenuItems;
+export default menuItems;

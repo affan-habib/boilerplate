@@ -49,10 +49,10 @@ const SidebarMenuItem = ({ item, sidebarExpanded, level = 0 }) => {
             ${isActive || isOpen ? 'bg-gradient-to-r from-indigo-600 to-indigo-700 text-white' : 'text-gray-300 hover:bg-gray-800 hover:text-white'}`}
           style={{ paddingLeft }}
         >
-          <div className="flex items-center w-full">
-            {item.icon && <span className="flex-shrink-0">{item.icon}</span>}
+          <div className="flex items-center w-full gap-3">
+            {item.icon && <item.icon className="w-4 h-4 flex-shrink-0" />}
             {sidebarExpanded && (
-              <span className="ml-3 text-sm font-medium truncate">{item.label}</span>
+              <span className="text-sm font-medium truncate">{item.label}</span>
             )}
           </div>
           {sidebarExpanded && (
@@ -98,10 +98,10 @@ const SidebarMenuItem = ({ item, sidebarExpanded, level = 0 }) => {
         `}
         style={{ paddingLeft }}
       >
-        <div className="flex items-center w-full">
-          {item.icon && <span className="flex-shrink-0">{item.icon}</span>}
+        <div className="flex items-center w-full gap-3">
+          {item.icon && <item.icon className="w-4 h-4 flex-shrink-0" />}
           {sidebarExpanded && (
-            <span className="ml-3 text-sm font-medium truncate">{item.label}</span>
+            <span className="text-sm font-medium truncate">{item.label}</span>
           )}
         </div>
       </NavLink>
